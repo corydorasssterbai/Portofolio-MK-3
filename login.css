@@ -27,17 +27,18 @@ label {
     font-weight: bold;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="password"] { /* Konsistensi ukuran untuk text dan password */
     width: 100%;
-    padding: 8px; /* Memperkecil ukuran padding */
+    padding: 8px; /* Ukuran padding seragam */
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 14px; /* Mengurangi ukuran font */
+    font-size: 14px;
 }
 
 button {
     width: 100%;
-    background-color: #ac6730;
+    background-color: #914f24;
     color: white;
     border: none;
     padding: 10px;
